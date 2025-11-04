@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.nav-panel {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 160px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-panel nav {
+  width: 50%;
+}
+.nav-panel ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.nav-panel ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ced4da;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+.search i {
+  font-size: 15px;
+  font-weight: 900;
+  color: #8e8e8e;
+}
+.search input {
+  width: 220px;
+  height: 20px;
+  border: none;
+  outline: none;
+}
+.main-page {
+  position: relative;
+  background-image: url(./assets/main-top.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 358px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-page-content {
+  width: 1120px;
+  margin-top: 20px;
+}
+.main-page h1 {
+  color: white;
+  font-size: 46px;
+  font-weight: 400;
+}
+.main-page p {
+  margin: 16px 0;
+  font-size: 16px;
+  color: white;
+  width: 560px;
+  height: 72px;
+}
+.main-page-btns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+}
+.main-page button {
+  max-width: 362px;
+  padding: 15px 30px;
+  border-radius: 15px;
+  background-color: #178094;
+  border: none;
+}
+.main-page button a {
+  font-size: 15px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 200;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.mission {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px;
+  background-color: #2c9195;
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 15px;
+  margin-top: -50px;
+  position: relative;
+  z-index: 0;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.mission h1 {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.mission p {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.activities {
+  height: 90vh;
+  background-color: #2c9195;
+  padding: 10px 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.activities .act-heading {
+  width: 1120px;
+  padding: 10px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.activities .act-heading h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.activities .act-section {
+  padding: 10px;
+  width: 33.333%;
+}
+.activities .act-section h1 {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.activities .act-section i {
+  font-size: 25px;
+  color: white;
+  font-weight: 900;
+}
+
+.activities .act-section h1:after {
+  content: "";
+  border-bottom: 5px solid #ffffff;
+  width: 100px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+.activities .act-section img {
+  margin-top: 20px;
+  padding: 10px 10px 5px 10px;
+  position: relative;
+  border-bottom: 5px solid #ffffff;
+}
+
+.activities .act-section .act-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.activities .act-section .act-links a:first-child {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.activities .act-section a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+.activities .act-section a:after {
+  content: "";
+  border-bottom: 1px solid #ffffff;
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+.activities .act-section .act-links a:last-child::after {
+  border: none;
+  content: none;
+}
+
+/* Resources */
+
+.resources {
+  height: 90vh;
+  background-color: #ffffff;
+  padding: 10px 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.resources .act-heading {
+  width: 1120px;
+  padding: 10px;
+  height: 50px;
+  background-color: #18172b;
+  border-radius: 10px;
+}
+
+.resources .act-heading h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.resources .act-section {
+  padding: 10px;
+  width: 33.333%;
+}
+.resources .act-section h1 {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  color: #18172b;
+}
+
+/* .resources .act-section i {
+  font-size: 25px;
+  color: #18172b;
+  font-weight: 900;
+} */
+
+.resources .act-section h1:after {
+  content: "";
+  border-bottom: 5px solid #2c9195;
+  width: 100px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+.resources .act-section img {
+  margin-top: 20px;
+  padding: 10px 10px 5px 10px;
+  position: relative;
+  border-bottom: 5px solid #2c9195;
+}
+
+.resources .act-section .act-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.resources .act-section .act-links a:first-child {
+  font-weight: 500;
+  font-size: 20px;
+}
+.resources .act-section .act-links a:last-child::after {
+  border: none;
+  content: none;
+}
+
+.resources .act-section a {
+  position: relative;
+  text-decoration: none;
+  color: #18172b;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+.resources .act-section a:after {
+  content: "";
+  border-bottom: 1px solid #18172b;
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.working {
+  height: 543px;
+  background-color: #ffffff;
+  padding: 10px 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.working .act-heading {
+  width: 1120px;
+  padding: 10px;
+  height: 50px;
+  background-color: #18172b;
+  border-radius: 10px;
+}
+
+.working .act-heading h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}

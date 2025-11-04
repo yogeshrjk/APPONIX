@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  padding: 5% 15%;
+  align-items: center;
+  justify-content: center;
+}
+.left-container {
+  width: 50%;
+  margin-top: 30px;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+input {
+  width: 60%;
+  padding: 10px;
+  background-color: #121212;
+  border: 0.5px solid rgb(168 168 168);
+  border-radius: 5px;
+}
+button {
+  margin-top: 10px;
+  width: 50%;
+  padding: 10px;
+  background-color: #3540ae;
+  border: none;
+  border-radius: 8px;
+  color: rgb(180, 180, 180);
+  font-weight: bold;
+}
+
+.separator {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 10px;
+}
+.separator span {
+  background-color: rgba(128, 128, 128, 0.4);
+  height: 0.1px;
+  flex: 1;
+}
+p,
+span {
+  color: rgb(168 168 168);
+}
+a {
+  color: #0095f6;
+}
+
+.fb {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.fb h6 {
+  color: rgb(0 149 246);
+  font-size: 14px;
+}
+
+.fb i {
+  color: rgb(0 149 246);
+  font-size: 20px;
+}
+
+.footer {
+  margin-top: 60px;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.footer li {
+  color: rgb(168 168 168);
+  font-size: 13px;
+}
+.footer-lang {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-lang p {
+  color: rgb(168 168 168);
+  font-size: 13px;
+}
