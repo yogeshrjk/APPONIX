@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bikin</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-image: url(https://images.unsplash.com/photo-1746950862786-c13d07b85bff?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070);
+      }
+      nav {
+        background-color: rgb(76, 168, 248);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 40px;
+      }
+      nav .logo {
+        text-transform: capitalize;
+        font-size: 25px;
+        color: #ffffff;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 18px;
+      }
+
+      .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 15%;
+      }
+      .main-content h1 {
+        text-transform: capitalize;
+        color: #ffffff;
+        font-size: 40px;
+      }
+      .main-content h6 {
+        text-transform: capitalize;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 300;
+      }
+      .main-content .btn-links {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+      }
+      .main-content button {
+        padding: 15px 25px;
+      }
+      .main-content .btn1 {
+        background-color: rgb(76, 168, 248);
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+      .main-content .btn1 a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 900;
+      }
+
+      .main-content .btn2 {
+        background-color: #ffffff;
+        border: 1px solid rgb(76, 168, 248);
+        border-radius: 5px;
+      }
+      .main-content .btn2 a {
+        text-decoration: none;
+        color: rgb(76, 168, 248);
+        font-size: 14px;
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="background-color: rgba(0, 0, 0, 0.6); height: 100vh">
+      <nav>
+        <div class="logo">Bikin</div>
+        <div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Price & Plan</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="main-content">
+        <h1>Clean & Fully Modern Design</h1>
+        <h6>Welcome To The Website</h6>
+        <div class="btn-links">
+          <button class="btn1"><a href="#">Live Demo</a></button>
+          <button class="btn2"><a href="#">Get Now</a></button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
