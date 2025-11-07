@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation grid</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .grid-container {
+        display: grid;
+        grid: auto auto / auto auto auto auto;
+        gap: 100px;
+        grid-row-end: 1;
+        justify-content: center;
+
+        place-items: center;
+        height: 100vh;
+      }
+      .grid-container div {
+        background-color: rgb(255, 145, 0);
+        padding: 20px;
+        border-radius: 0 10px 0 10px;
+      }
+      .grid-container div:hover {
+        scale: 1.1;
+      }
+      .grid-container a {
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item1">
+        <a href="./assesment 1/index.html">assignment1</a>
+      </div>
+      <div class="grid-item2">
+        <a href="/forest/forest.html">assignment2</a>
+      </div>
+      <div class="grid-item3">
+        <a href="/assignment 3/index.html">assignment3</a>
+      </div>
+      <div class="grid-item4">
+        <a href="/India tourism/index.html">India tourism</a>
+      </div>
+      <div class="grid-item5">
+        <a href="/Instagram/index.html">Instagram</a>
+      </div>
+      <div class="grid-item6">
+        <a href="/login_form/login.html">Login form</a>
+      </div>
+      <div class="grid-item7"><a href="/practice/index.html">practice</a></div>
+      <!-- <div class="grid-item8">8</div> -->
+    </div>
+  </body>
+</html>
